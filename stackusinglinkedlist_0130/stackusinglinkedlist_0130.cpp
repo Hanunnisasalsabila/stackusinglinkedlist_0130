@@ -77,4 +77,8 @@ int main() {
             cin >> value;
             stack.push(value);
             break;
+        case 2:
+            if (!stack.isEmpty()) {
+                stack.pop();
+            }
 }
